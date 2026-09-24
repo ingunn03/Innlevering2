@@ -5,8 +5,11 @@ public class Tabeller {
 	// a)
 	public static void skrivUt(int[] tabell) {
 
-		// TODO
-		throw new UnsupportedOperationException("Metoden skrivUt ikke implementert");
+		// Skrive tabell med heiltal
+
+		for(int i = 0; i<tabell.length; i++) {
+            System.out.println(tabell[i]);
+        }
 
 	}
 
